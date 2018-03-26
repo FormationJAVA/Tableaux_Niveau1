@@ -49,12 +49,16 @@ System.out.println(a[0]);
 
 Pour afficher tout les elements du tableau, il suffit de developper une méthode "printTab" qui permet d'afficher tout les elements d'un tableau 
 ```
-public static void printTab (int[][] tab)
+public static void printTab (int[] tab)
+{
+	m = tab.length;
+	System.out.print("[ ");
+	for (int i = 0;i< m ;i++)
 	{
-		for (int i = 0; i<tab.length;i++)
-		{
-			printTab(tab[i]);
+		System.out.print(tab[i]+" ");
 	}
+	System.out.println("]");
+}
 ```
 ## Exemple tableau bidimentionnel
 Declaration
