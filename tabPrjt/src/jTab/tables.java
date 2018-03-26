@@ -1,5 +1,9 @@
 package jTab;
-
+/**
+ * 
+ * @author B BOUALEM
+ *
+ */
 public class tables {
 		static int m = 0;
 	public static void main(String[] args) {
